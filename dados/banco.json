@@ -1,0 +1,675 @@
+{
+  "site": {
+    "nome": "Portal Cícero Dantas",
+    "slogan": "Notícias de Cícero Dantas e região",
+    "sigla": "CD",
+    "whatsapp": "5575999999999",
+    "email": "contato@portalcicerodantas.com.br",
+    "instagram": "https://instagram.com/",
+    "facebook": "https://facebook.com/",
+    "youtube": "https://youtube.com/"
+  },
+  "editorias": {
+    "cicero-dantas": {
+      "nome": "Cícero Dantas",
+      "cor": "#0a2545",
+      "desc": "Tudo o que acontece na nossa cidade"
+    },
+    "bahia": {
+      "nome": "Bahia",
+      "cor": "#c8102e",
+      "desc": "Notícias de todo o estado"
+    },
+    "politica": {
+      "nome": "Política",
+      "cor": "#5b2c83",
+      "desc": "Câmara, prefeitura, governo e eleições"
+    },
+    "economia": {
+      "nome": "Economia",
+      "cor": "#0f7a4a",
+      "desc": "Mercado, empregos e seu bolso"
+    },
+    "agro": {
+      "nome": "Agro",
+      "cor": "#7a5a12",
+      "desc": "Campo, safra e pecuária no sertão"
+    },
+    "esportes": {
+      "nome": "Esportes",
+      "cor": "#e36414",
+      "desc": "Futebol baiano, amador e muito mais"
+    },
+    "saude": {
+      "nome": "Saúde",
+      "cor": "#0e8a9c",
+      "desc": "Bem-estar, SUS e prevenção"
+    },
+    "educacao": {
+      "nome": "Educação",
+      "cor": "#2563eb",
+      "desc": "Escolas, ENEM, concursos e cursos"
+    },
+    "cultura": {
+      "nome": "Cultura",
+      "cor": "#c2185b",
+      "desc": "Festas, forró, eventos e turismo"
+    }
+  },
+  "cidadesTempo": [
+    {
+      "nome": "Cícero Dantas",
+      "lat": -10.5997,
+      "lon": -38.3828
+    },
+    {
+      "nome": "Ribeira do Pombal",
+      "lat": -10.834,
+      "lon": -38.536
+    },
+    {
+      "nome": "Paulo Afonso",
+      "lat": -9.406,
+      "lon": -38.2144
+    },
+    {
+      "nome": "Euclides da Cunha",
+      "lat": -10.507,
+      "lon": -39.015
+    },
+    {
+      "nome": "Feira de Santana",
+      "lat": -12.2664,
+      "lon": -38.9663
+    },
+    {
+      "nome": "Salvador",
+      "lat": -12.9714,
+      "lon": -38.5014
+    },
+    {
+      "nome": "Vitória da Conquista",
+      "lat": -14.8619,
+      "lon": -40.8444
+    },
+    {
+      "nome": "Juazeiro",
+      "lat": -9.4162,
+      "lon": -40.5033
+    }
+  ],
+  "patrocinios": {
+    "topo": {
+      "texto": "Seu anúncio aqui — 970x90",
+      "link": "anuncie.html"
+    },
+    "lateral": {
+      "texto": "Anuncie no Portal — 300x250",
+      "link": "anuncie.html"
+    },
+    "feed": {
+      "texto": "Espaço para patrocinador — banner no meio das notícias",
+      "link": "anuncie.html"
+    },
+    "artigo": {
+      "texto": "Sua marca dentro das matérias mais lidas",
+      "link": "anuncie.html"
+    },
+    "apoiadores": [
+      {
+        "nome": "Seu comércio",
+        "imagem": "",
+        "link": "anuncie.html"
+      },
+      {
+        "nome": "Sua farmácia",
+        "imagem": "",
+        "link": "anuncie.html"
+      },
+      {
+        "nome": "Seu supermercado",
+        "imagem": "",
+        "link": "anuncie.html"
+      },
+      {
+        "nome": "Sua loja",
+        "imagem": "",
+        "link": "anuncie.html"
+      },
+      {
+        "nome": "Sua clínica",
+        "imagem": "",
+        "link": "anuncie.html"
+      },
+      {
+        "nome": "Sua empresa",
+        "imagem": "",
+        "link": "anuncie.html"
+      }
+    ]
+  },
+  "noticias": [
+    {
+      "id": "feira-livre-cicero-dantas-reforma",
+      "editoria": "cicero-dantas",
+      "chapeu": "Obras",
+      "titulo": "Feira livre de Cícero Dantas ganha nova cobertura e área de alimentação",
+      "subtitulo": "Reforma prevê bancas padronizadas, banheiros públicos e iluminação em LED; obra deve ser entregue no início do próximo ano",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/feira-cd/1200/675",
+      "legenda": "Área da feira livre no centro da cidade (imagem ilustrativa)",
+      "destaque": true,
+      "maisLida": 1,
+      "resumo": [
+        "Feira terá cobertura nova, banheiros e iluminação em LED",
+        "Feirantes serão remanejados temporariamente durante a obra",
+        "Entrega prevista para o início do próximo ano"
+      ],
+      "texto": [
+        "A tradicional feira livre de Cícero Dantas vai passar por uma reforma completa. O projeto prevê nova cobertura metálica, padronização das bancas, construção de banheiros públicos e troca de toda a iluminação por lâmpadas de LED.",
+        "Segundo a administração municipal, os feirantes serão remanejados temporariamente para uma área próxima durante as obras, para que o comércio não seja interrompido.",
+        "## O que muda para o consumidor",
+        "Além da estrutura nova, o espaço ganhará uma área de alimentação com mesas cobertas e pontos de água potável. A expectativa é que o movimento aumente, principalmente aos sábados.",
+        "> \"A feira é o coração da cidade. Com a reforma, quem vende e quem compra vai ter mais conforto\", disse um dos feirantes mais antigos do local.",
+        "A obra deve ser concluída no início do próximo ano, de acordo com o cronograma apresentado."
+      ],
+      "tags": [
+        "feira livre",
+        "obras",
+        "comércio"
+      ],
+      "data": "2026-11-06T16:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "chuvas-nordeste-baiano-previsao",
+      "editoria": "bahia",
+      "chapeu": "Clima",
+      "titulo": "Nordeste baiano pode ter chuvas acima da média nas próximas semanas, apontam meteorologistas",
+      "subtitulo": "Previsão anima produtores rurais do sertão, que se preparam para o plantio",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/chuva-ba/1200/675",
+      "legenda": "Céu carregado no sertão baiano (imagem ilustrativa)",
+      "destaque": true,
+      "maisLida": 2,
+      "texto": [
+        "Modelos meteorológicos indicam que o nordeste da Bahia pode registrar volumes de chuva acima da média nas próximas semanas. A região, que inclui Cícero Dantas e municípios vizinhos, enfrentou um período prolongado de estiagem.",
+        "A notícia é recebida com otimismo por agricultores, que aguardam a umidade do solo para iniciar o plantio de milho e feijão.",
+        "Especialistas recomendam atenção às áreas de risco em cidades maiores, onde chuvas intensas em pouco tempo podem causar alagamentos.",
+        "Acompanhe a previsão atualizada para sua cidade no quadro de tempo do portal."
+      ],
+      "tags": [
+        "chuva",
+        "previsão do tempo",
+        "sertão"
+      ],
+      "data": "2026-11-06T15:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "vaquejada-regional-programacao",
+      "editoria": "cultura",
+      "chapeu": "Festa",
+      "titulo": "Vaquejada regional confirma programação com shows de forró e premiação recorde",
+      "subtitulo": "Evento deve atrair visitantes de várias cidades do nordeste baiano e de Sergipe",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/vaquejada/1200/675",
+      "legenda": "Parque de vaquejada (imagem ilustrativa)",
+      "destaque": true,
+      "maisLida": 3,
+      "texto": [
+        "A organização da vaquejada regional divulgou a programação completa do evento, que contará com três noites de shows de forró e premiação considerada a maior da história da competição.",
+        "A rede hoteleira da região já registra alta na procura por hospedagem. Comerciantes também esperam aumento nas vendas durante o fim de semana.",
+        "A organização informou que haverá reforço na segurança e equipe de atendimento médico durante todo o evento."
+      ],
+      "tags": [
+        "vaquejada",
+        "forró",
+        "eventos"
+      ],
+      "data": "2026-11-06T14:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "safra-milho-sertao",
+      "editoria": "agro",
+      "chapeu": "Safra",
+      "titulo": "Produtores do sertão apostam em sementes resistentes à seca para nova safra de milho",
+      "subtitulo": "Técnicos orientam sobre plantio na época certa e uso de cisternas para irrigação",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/milho-sertao/1200/675",
+      "legenda": "Plantação de milho (imagem ilustrativa)",
+      "destaque": true,
+      "texto": [
+        "Com a expectativa de chuvas, agricultores familiares do nordeste baiano começam a preparar a terra para a nova safra de milho. Muitos estão apostando em variedades de sementes mais resistentes à falta de água.",
+        "Técnicos de assistência rural reforçam que o plantio deve acompanhar o calendário das chuvas e que o armazenamento de água em cisternas ajuda a garantir a produção.",
+        "Associações rurais da região também organizam mutirões e compras coletivas de insumos para reduzir custos."
+      ],
+      "tags": [
+        "milho",
+        "agricultura familiar",
+        "seca"
+      ],
+      "data": "2026-11-06T13:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "campeonato-intermunicipal-semifinal",
+      "editoria": "esportes",
+      "chapeu": "Futebol amador",
+      "titulo": "Seleção de Cícero Dantas vence nos pênaltis e avança à semifinal do Intermunicipal",
+      "subtitulo": "Goleiro defendeu duas cobranças e foi o herói da classificação diante de estádio lotado",
+      "autor": "Redação Esportes",
+      "imagem": "https://picsum.photos/seed/futebol-cd/1200/675",
+      "legenda": "Partida de futebol amador (imagem ilustrativa)",
+      "destaque": true,
+      "maisLida": 4,
+      "texto": [
+        "Em jogo emocionante, a seleção de Cícero Dantas empatou no tempo normal e garantiu a vaga na semifinal do Campeonato Intermunicipal nas cobranças de pênaltis.",
+        "O goleiro da equipe defendeu duas cobranças e foi carregado pelos torcedores ao fim da partida.",
+        "O próximo adversário e a data da semifinal serão definidos pela organização nos próximos dias."
+      ],
+      "tags": [
+        "futebol",
+        "intermunicipal",
+        "seleção"
+      ],
+      "data": "2026-11-06T12:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "vacinacao-postos-horario-estendido",
+      "editoria": "saude",
+      "chapeu": "Vacinação",
+      "titulo": "Postos de saúde terão horário estendido para campanha de vacinação",
+      "subtitulo": "Moradores devem levar cartão de vacina e documento com foto; crianças e idosos são prioridade",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/vacina-cd/1200/675",
+      "legenda": "Unidade de saúde (imagem ilustrativa)",
+      "maisLida": 5,
+      "texto": [
+        "As unidades de saúde do município funcionarão em horário estendido durante a campanha de vacinação, incluindo um sábado de mobilização.",
+        "Para receber as doses, é preciso apresentar documento com foto e, se possível, o cartão de vacinação. Crianças, gestantes e idosos têm prioridade.",
+        "A secretaria de saúde orienta que a população confira se está com as vacinas em dia."
+      ],
+      "tags": [
+        "vacina",
+        "SUS",
+        "saúde pública"
+      ],
+      "data": "2026-11-06T11:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "enem-dicas-estudantes",
+      "editoria": "educacao",
+      "chapeu": "ENEM",
+      "titulo": "Estudantes do interior se preparam para o ENEM com aulões gratuitos",
+      "subtitulo": "Professores voluntários oferecem revisão de redação e matemática aos fins de semana",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/enem-estudo/1200/675",
+      "legenda": "Estudantes em sala de aula (imagem ilustrativa)",
+      "texto": [
+        "Aulões gratuitos estão ajudando estudantes da região a se preparar para o ENEM. As aulas acontecem aos fins de semana e focam em redação e matemática, áreas com maior peso na nota.",
+        "## Dicas para a reta final",
+        "Professores recomendam revisar os temas mais cobrados, treinar redações com tempo cronometrado e dormir bem na véspera da prova.",
+        "Também é importante conferir o local de prova com antecedência e levar caneta de tinta preta em tubo transparente."
+      ],
+      "tags": [
+        "ENEM",
+        "educação",
+        "vestibular"
+      ],
+      "data": "2026-11-06T09:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "empregos-comercio-fim-de-ano",
+      "editoria": "economia",
+      "chapeu": "Emprego",
+      "titulo": "Comércio da região abre vagas temporárias para o fim de ano",
+      "subtitulo": "Lojas e supermercados buscam vendedores, caixas e repositores; veja como se candidatar",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/comercio-vagas/1200/675",
+      "legenda": "Comércio no centro (imagem ilustrativa)",
+      "maisLida": 6,
+      "texto": [
+        "Com a proximidade das festas de fim de ano, o comércio do nordeste baiano começa a contratar trabalhadores temporários. As principais oportunidades são para vendedor, operador de caixa, repositor e estoquista.",
+        "Interessados devem levar currículo diretamente às lojas ou acompanhar os anúncios publicados nas redes sociais dos estabelecimentos.",
+        "Parte das vagas temporárias pode se tornar efetiva depois do período de festas, segundo comerciantes."
+      ],
+      "tags": [
+        "emprego",
+        "vagas",
+        "comércio"
+      ],
+      "data": "2026-11-06T07:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "camara-sessao-orcamento",
+      "editoria": "politica",
+      "chapeu": "Câmara Municipal",
+      "titulo": "Câmara de Vereadores começa a discutir orçamento do município para o próximo ano",
+      "subtitulo": "Saúde e educação devem concentrar a maior parte dos recursos previstos",
+      "autor": "Redação Política",
+      "imagem": "https://picsum.photos/seed/camara-cd/1200/675",
+      "legenda": "Plenário de câmara municipal (imagem ilustrativa)",
+      "texto": [
+        "A Câmara de Vereadores iniciou a análise do projeto de lei orçamentária para o próximo ano. A proposta define quanto o município poderá gastar em cada área.",
+        "Saúde e educação concentram a maior parte dos recursos, seguidas por infraestrutura e assistência social.",
+        "As sessões são abertas ao público, e os moradores podem acompanhar as discussões presencialmente ou pelas transmissões da Câmara."
+      ],
+      "tags": [
+        "câmara",
+        "orçamento",
+        "vereadores"
+      ],
+      "data": "2026-11-06T05:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "salvador-turismo-verao",
+      "editoria": "bahia",
+      "chapeu": "Turismo",
+      "titulo": "Salvador espera alta de turistas na temporada de verão",
+      "subtitulo": "Hotéis projetam ocupação elevada entre dezembro e o Carnaval",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/salvador-verao/1200/675",
+      "legenda": "Orla de Salvador (imagem ilustrativa)",
+      "texto": [
+        "O setor de turismo da capital baiana projeta uma temporada de verão movimentada, com alta procura por hospedagem entre dezembro e o Carnaval.",
+        "Além das praias, eventos culturais e shows estão entre os principais atrativos para visitantes de outros estados e do exterior.",
+        "Para quem vai viajar do interior, a recomendação é reservar com antecedência para conseguir preços melhores."
+      ],
+      "tags": [
+        "Salvador",
+        "turismo",
+        "verão"
+      ],
+      "data": "2026-11-06T03:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "bahia-futebol-serie-a",
+      "editoria": "esportes",
+      "chapeu": "Futebol baiano",
+      "titulo": "Times baianos se preparam para a reta final da temporada",
+      "subtitulo": "Torcedores lotam estádios e clubes fazem as contas para os objetivos do ano",
+      "autor": "Redação Esportes",
+      "imagem": "https://picsum.photos/seed/estadio-ba/1200/675",
+      "legenda": "Estádio de futebol (imagem ilustrativa)",
+      "texto": [
+        "Os clubes baianos entram na reta final da temporada com objetivos diferentes na tabela. A torcida tem comparecido em peso aos jogos em casa.",
+        "Comissões técnicas trabalham para recuperar jogadores lesionados e manter a regularidade nas últimas rodadas.",
+        "Acompanhe a cobertura completa dos jogos na editoria de Esportes."
+      ],
+      "tags": [
+        "futebol",
+        "Bahia",
+        "campeonato"
+      ],
+      "data": "2026-11-06T01:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "dengue-cuidados-chuva",
+      "editoria": "saude",
+      "chapeu": "Prevenção",
+      "titulo": "Com chegada das chuvas, saúde reforça cuidados contra a dengue",
+      "subtitulo": "Recipientes com água parada são principal foco do mosquito; veja como se proteger",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/dengue/1200/675",
+      "legenda": "Agente de saúde em visita (imagem ilustrativa)",
+      "resumo": [
+        "Elimine água parada em vasos, pneus e garrafas",
+        "Mantenha caixas d'água tampadas",
+        "Procure a unidade de saúde em caso de febre alta"
+      ],
+      "texto": [
+        "O período chuvoso aumenta o risco de proliferação do mosquito transmissor da dengue, zika e chikungunya. Agentes de endemias intensificam as visitas às residências.",
+        "A principal medida de prevenção é eliminar recipientes que acumulam água parada, como vasos de plantas, pneus, garrafas e calhas entupidas.",
+        "Em caso de febre alta, dor no corpo e manchas na pele, a orientação é procurar uma unidade de saúde e evitar a automedicação."
+      ],
+      "tags": [
+        "dengue",
+        "prevenção",
+        "chuva"
+      ],
+      "data": "2026-11-05T23:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "caprinos-ovinos-feira-agro",
+      "editoria": "agro",
+      "chapeu": "Pecuária",
+      "titulo": "Criadores de caprinos e ovinos da região participam de feira de negócios",
+      "subtitulo": "Evento reúne produtores, compradores e técnicos com foco em genética e manejo",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/caprinos/1200/675",
+      "legenda": "Criação de cabras (imagem ilustrativa)",
+      "texto": [
+        "A criação de caprinos e ovinos, uma das atividades mais importantes do sertão baiano, ganha destaque em feira de negócios que reúne produtores da região.",
+        "Palestras sobre manejo, sanidade animal e melhoramento genético fazem parte da programação.",
+        "Para os organizadores, o evento ajuda a valorizar a produção local e abrir novos mercados."
+      ],
+      "tags": [
+        "caprinos",
+        "ovinos",
+        "pecuária"
+      ],
+      "data": "2026-11-05T21:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "estrada-recuperacao-trecho",
+      "editoria": "cicero-dantas",
+      "chapeu": "Infraestrutura",
+      "titulo": "Trecho de rodovia que liga Cícero Dantas a cidades vizinhas recebe operação tapa-buraco",
+      "subtitulo": "Motoristas devem ter atenção redobrada e respeitar a sinalização durante os serviços",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/estrada-ba/1200/675",
+      "legenda": "Rodovia no interior (imagem ilustrativa)",
+      "texto": [
+        "Equipes iniciaram serviços de recuperação em trecho de rodovia que liga Cícero Dantas a municípios vizinhos. O trabalho inclui tapa-buracos e reforço da sinalização.",
+        "Durante as obras, pode haver pare-e-siga em alguns pontos. A recomendação é reduzir a velocidade e respeitar a orientação das equipes.",
+        "Moradores cobram há tempos melhorias no trecho, usado diariamente por estudantes, trabalhadores e transporte de cargas."
+      ],
+      "tags": [
+        "rodovia",
+        "obras",
+        "trânsito"
+      ],
+      "data": "2026-11-05T19:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "pix-golpes-orientacoes",
+      "editoria": "economia",
+      "chapeu": "Seu bolso",
+      "titulo": "Golpes pelo celular: veja como se proteger e o que fazer se cair em fraude",
+      "subtitulo": "Especialistas alertam para mensagens falsas que pedem transferências urgentes",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/celular-golpe/1200/675",
+      "legenda": "Pessoa usando celular (imagem ilustrativa)",
+      "maisLida": 7,
+      "resumo": [
+        "Desconfie de pedidos urgentes de dinheiro, mesmo de conhecidos",
+        "Confirme por ligação antes de transferir",
+        "Em caso de golpe, avise o banco imediatamente e registre ocorrência"
+      ],
+      "texto": [
+        "Golpes aplicados pelo celular continuam fazendo vítimas em todo o país. A tática mais comum é o envio de mensagens se passando por parentes ou empresas, pedindo transferências urgentes.",
+        "## Como se proteger",
+        "Desconfie de qualquer pedido de dinheiro com urgência. Ligue para a pessoa antes de fazer qualquer transferência e nunca informe senhas ou códigos recebidos por SMS.",
+        "Se cair em um golpe, entre em contato imediatamente com seu banco e registre um boletim de ocorrência. Quanto mais rápido, maiores as chances de recuperar o valor."
+      ],
+      "tags": [
+        "golpe",
+        "segurança",
+        "dinheiro"
+      ],
+      "data": "2026-11-05T15:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "biblioteca-municipal-projeto-leitura",
+      "editoria": "educacao",
+      "chapeu": "Leitura",
+      "titulo": "Projeto leva contação de histórias a escolas da zona rural",
+      "subtitulo": "Iniciativa quer incentivar o hábito da leitura entre crianças do ensino fundamental",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/leitura-criancas/1200/675",
+      "legenda": "Crianças lendo (imagem ilustrativa)",
+      "texto": [
+        "Um projeto de incentivo à leitura está levando contação de histórias e doação de livros a escolas da zona rural do município.",
+        "As atividades incluem rodas de leitura, teatro de fantoches e oficinas de escrita criativa para os alunos.",
+        "Os organizadores aceitam doações de livros infantis em bom estado."
+      ],
+      "tags": [
+        "leitura",
+        "escolas",
+        "zona rural"
+      ],
+      "data": "2026-11-05T11:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "governo-bahia-programa-habitacao",
+      "editoria": "politica",
+      "chapeu": "Governo do Estado",
+      "titulo": "Programa habitacional prevê novas moradias em cidades do interior baiano",
+      "subtitulo": "Famílias de baixa renda inscritas no Cadastro Único terão prioridade",
+      "autor": "Redação Política",
+      "imagem": "https://picsum.photos/seed/casas-ba/1200/675",
+      "legenda": "Conjunto habitacional (imagem ilustrativa)",
+      "texto": [
+        "Um programa habitacional deve contemplar diversas cidades do interior da Bahia com a construção de novas moradias populares.",
+        "Famílias de baixa renda inscritas no Cadastro Único terão prioridade. A orientação é manter o cadastro atualizado no CRAS do município.",
+        "Os critérios de seleção e o calendário de inscrições serão divulgados pelos órgãos responsáveis."
+      ],
+      "tags": [
+        "habitação",
+        "moradia",
+        "CadÚnico"
+      ],
+      "data": "2026-11-05T07:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "forro-pe-de-serra-festival",
+      "editoria": "cultura",
+      "chapeu": "Música",
+      "titulo": "Festival de forró pé de serra reúne sanfoneiros da região",
+      "subtitulo": "Apresentações valorizam artistas locais e a tradição nordestina",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/sanfona/1200/675",
+      "legenda": "Sanfoneiro em apresentação (imagem ilustrativa)",
+      "texto": [
+        "Sanfoneiros, zabumbeiros e trianguleiros da região se reuniram em um festival dedicado ao forró pé de serra.",
+        "O evento teve apresentações de grupos tradicionais e de jovens talentos que mantêm viva a cultura nordestina.",
+        "A organização pretende transformar o festival em evento anual no calendário cultural da cidade."
+      ],
+      "tags": [
+        "forró",
+        "cultura nordestina",
+        "música"
+      ],
+      "data": "2026-11-05T01:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "combustivel-precos-postos",
+      "editoria": "economia",
+      "chapeu": "Combustíveis",
+      "titulo": "Preço da gasolina varia entre postos da região; pesquisar pode gerar economia",
+      "subtitulo": "Levantamento mostra diferença de centavos que pesa no fim do mês",
+      "autor": "Redação",
+      "imagem": "https://picsum.photos/seed/posto-gasolina/1200/675",
+      "legenda": "Bomba de combustível (imagem ilustrativa)",
+      "texto": [
+        "Um levantamento em postos de combustíveis da região mostrou diferença de preço da gasolina entre os estabelecimentos.",
+        "Para quem abastece com frequência, a pesquisa pode representar economia significativa ao longo do mês.",
+        "Aplicativos e grupos de mensagens ajudam motoristas a encontrar os melhores preços."
+      ],
+      "tags": [
+        "gasolina",
+        "preços",
+        "economia"
+      ],
+      "data": "2026-11-04T19:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    },
+    {
+      "id": "corrida-de-rua-inscricoes",
+      "editoria": "esportes",
+      "chapeu": "Corrida",
+      "titulo": "Corrida de rua abre inscrições com percursos de 5 km e 10 km",
+      "subtitulo": "Prova terá categoria infantil e premiação para os primeiros colocados",
+      "autor": "Redação Esportes",
+      "imagem": "https://picsum.photos/seed/corrida-rua/1200/675",
+      "legenda": "Corredores em prova de rua (imagem ilustrativa)",
+      "texto": [
+        "Estão abertas as inscrições para a corrida de rua da cidade, com percursos de 5 km e 10 km, além de uma categoria infantil.",
+        "Os participantes recebem kit com camiseta e medalha de participação. Os primeiros colocados de cada categoria serão premiados.",
+        "As vagas são limitadas e a organização recomenda que os atletas façam avaliação médica antes da prova."
+      ],
+      "tags": [
+        "corrida",
+        "atletismo",
+        "saúde"
+      ],
+      "data": "2026-11-04T13:35:49.178Z",
+      "status": "publicado",
+      "visualizacoes": 0,
+      "atualizadoEm": "2026-11-06T17:35:49.184Z"
+    }
+  ],
+  "usuarios": [
+    {
+      "usuario": "admin",
+      "nome": "Administrador",
+      "papel": "admin",
+      "senha": "2fe963cad8227374b82c835ecddc92bb:172abd3b3d3f2778de1c594c19bfdb1d0cbc252f75b0f95575046106563651026cf7b0e8d335958a830748fb7ad7af44d648b8f24455548da07558f3fb4d7d1b",
+      "trocarSenha": true
+    }
+  ]
+}

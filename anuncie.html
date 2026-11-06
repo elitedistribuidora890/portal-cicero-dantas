@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Cícero Dantas — Notícias de Cícero Dantas e da Bahia</title>
+  <meta name="description" content="Notícias de Cícero Dantas, do nordeste baiano e de toda a Bahia: política, economia, agro, esportes, saúde, previsão do tempo e cotações.">
+  <meta name="theme-color" content="#0a2545">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <meta property="og:site_name" content="Portal Cícero Dantas">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/compartilhar.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>if(localStorage.getItem("tema")==="escuro")document.documentElement.classList.add("escuro")</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-pagina="estatica">
+  <main>
+    <h1>📣 Anuncie no Portal Cícero Dantas</h1>
+    <p>Coloque sua marca na frente de quem acompanha as notícias de Cícero Dantas, do nordeste baiano e de toda a Bahia. Temos formatos para todos os tamanhos de negócio, do comércio do bairro às grandes empresas.</p>
+
+    <h2>Formatos disponíveis</h2>
+    <div class="planos">
+      <div class="plano">
+        <h3>Apoiador</h3>
+        <div class="formato">Logo no rodapé de todas as páginas</div>
+        <ul><li>Presença em todo o site</li><li>Ideal para o comércio local</li><li>Link para seu Instagram ou WhatsApp</li></ul>
+      </div>
+      <div class="plano">
+        <h3>Banner lateral</h3>
+        <div class="formato">300x250 · coluna da direita</div>
+        <ul><li>Visível na home, editorias e matérias</li><li>Fica fixo enquanto o leitor rola a página</li></ul>
+      </div>
+      <div class="plano destaque">
+        <h3>⭐ Banner topo</h3>
+        <div class="formato">970x90 (desktop) · 320x100 (celular)</div>
+        <ul><li>Primeira coisa que o leitor vê</li><li>Maior visibilidade do portal</li></ul>
+      </div>
+      <div class="plano">
+        <h3>Dentro da matéria</h3>
+        <div class="formato">Banner no meio do texto e no feed</div>
+        <ul><li>Alta atenção do leitor</li><li>Pode ser segmentado por editoria</li></ul>
+      </div>
+      <div class="plano">
+        <h3>Patrocínio de editoria</h3>
+        <div class="formato">"Esportes oferecido por..."</div>
+        <ul><li>Sua marca associada a um tema</li><li>Ex.: Agro, Esportes, Saúde</li></ul>
+      </div>
+      <div class="plano">
+        <h3>Conteúdo patrocinado</h3>
+        <div class="formato">Matéria sobre sua empresa</div>
+        <ul><li>Identificada como publicidade</li><li>Divulgada também no WhatsApp</li></ul>
+      </div>
+    </div>
+
+    <h2>Fale com o comercial</h2>
+    <form class="form-contato" id="form-anuncie">
+      <input name="nome" placeholder="Seu nome" required>
+      <input name="empresa" placeholder="Empresa / comércio">
+      <select name="formato">
+        <option>Apoiador</option><option>Banner lateral</option><option>Banner topo</option>
+        <option>Dentro da matéria</option><option>Patrocínio de editoria</option><option>Conteúdo patrocinado</option>
+      </select>
+      <textarea name="mensagem" rows="4" placeholder="Conte um pouco do que você precisa"></textarea>
+      <button class="btn">Enviar pelo WhatsApp</button>
+    </form>
+  </main>
+  <script src="js/dados.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById("form-anuncie").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const f = new FormData(this);
+      const txt = "Olá! Quero anunciar no " + SITE.nome + ".\nNome: " + f.get("nome") + "\nEmpresa: " + f.get("empresa") +
+        "\nFormato: " + f.get("formato") + "\nMensagem: " + f.get("mensagem");
+      window.open("https://wa.me/" + SITE.whatsapp + "?text=" + encodeURIComponent(txt), "_blank");
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Painel — Portal Cícero Dantas</title>
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <!-- Tela de login -->
+  <section id="tela-login" class="login" hidden>
+    <form id="form-login" class="login-caixa">
+      <div class="login-logo"><img src="/img/logo-horizontal-clara.webp" alt="Portal Cícero Dantas"><span>Painel da redação</span></div>
+      <label>Usuário<input name="usuario" autocomplete="username" required autofocus></label>
+      <label>Senha<input name="senha" type="password" autocomplete="current-password" required></label>
+      <p class="msg-erro" id="erro-login"></p>
+      <button class="btn">Entrar</button>
+      <a href="/" class="voltar-site">← Voltar ao site</a>
+    </form>
+  </section>
+
+  <!-- Painel -->
+  <div id="app" hidden>
+    <aside class="lateral" id="lateral">
+      <div class="marca"><img src="/img/logo-horizontal-escura.webp" alt="Portal Cícero Dantas"></div>
+      <nav>
+        <a href="#inicio" data-r="inicio">📊 Visão geral</a>
+        <a href="#nova" data-r="nova" class="destaque-nav">➕ Nova notícia</a>
+        <a href="#noticias" data-r="noticias">📰 Notícias</a>
+        <a href="#patrocinios" data-r="patrocinios" class="so-admin">📣 Patrocinadores</a>
+        <a href="#configuracoes" data-r="configuracoes" class="so-admin">⚙️ Configurações</a>
+        <a href="#usuarios" data-r="usuarios" class="so-admin">👥 Usuários</a>
+        <a href="#senha" data-r="senha">🔑 Minha senha</a>
+      </nav>
+      <div class="rodape-lateral">
+        <a href="/" target="_blank">🌐 Ver o site</a>
+        <button id="btn-sair" type="button">Sair</button>
+      </div>
+    </aside>
+    <div class="principal">
+      <header class="topo">
+        <button id="btn-menu" class="btn-menu" type="button" aria-label="Menu">☰</button>
+        <h1 id="titulo-tela">Visão geral</h1>
+        <span id="quem" class="quem"></span>
+      </header>
+      <main id="conteudo"></main>
+    </div>
+  </div>
+
+  <div id="aviso" class="aviso" role="status"></div>
+  <script src="admin.js"></script>
+</body>
+</html>
